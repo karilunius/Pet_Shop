@@ -1,3 +1,6 @@
-nav#submenu {
+nav.submenu {
     background-color: rgb(43, 36, 5);
+}
+footer {
+    background-color:orange;
 }
