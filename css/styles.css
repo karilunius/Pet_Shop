@@ -1,6 +1,19 @@
 nav.submenu {
-    background-color: rgb(43, 36, 5);
+    background-color:rgb(43, 36, 5); color:aliceblue;
+    font-size: small;
 }
+#logopet1 {
+    background-color:rgb(235, 195, 19);
+}
+#foto {
+    background-color:rgb(235, 195, 19);
+}
+#submenu3 {
+    background-color:rgb(235, 195, 19); color:aliceblue;
+}
+
+
 footer {
-    background-color:orange;
+    color:aliceblue;background-color:orange; font-size: 13px; 
+    font-family: 'Antic Slab', serif; text-align: center;
 }
