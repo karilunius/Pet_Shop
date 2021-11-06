@@ -8,11 +8,23 @@ nav.submenu {
 #foto {
     background-color:rgb(235, 195, 19);
 }
+.box {
+    display:inline;
+}
+
 #submenu3 {
     background-color:rgb(235, 195, 19); color:aliceblue;
 }
-
-
+/*#fotoverde {
+    background-color: rgb(135, 207, 163);
+}*/
+.contactos {
+    color: floralwhite;
+    background-color: rgb(138, 104, 11);
+}
+.textoh2 {
+    font-weight: bold;font-size:x-large;
+}
 footer {
     color:aliceblue;background-color:orange; font-size: 13px; 
     font-family: 'Antic Slab', serif; text-align: center;
