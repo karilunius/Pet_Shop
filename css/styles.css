@@ -15,17 +15,31 @@ nav.submenu {
 #submenu3 {
     background-color:rgb(235, 195, 19); color:aliceblue;
 }
-/*#fotoverde {
-    background-color: rgb(135, 207, 163);
-}*/
+
 .contactos {
     color: floralwhite;
-    background-color: rgb(138, 104, 11);
+    background-color: rgb(138, 104, 11);margin:0%;display:block;
 }
+
+span #images3 {
+    display:inline-block; position:relative;left:2%; top:0% ;right:0% ;bottom:0%;
+}
+
+span #textoinfo {
+    display:inline-block; position:relative;left:30%; top:0% ;right:0% ;bottom:0%;
+}
+
+span #logolado {
+    display: inline-block; position:relative;left:50%; top:0% ;right:0% ;bottom:0%;
+    }
+
 .textoh2 {
-    font-weight: bold;font-size:x-large;
+    font-weight: bold;font-size:x-large;font-family: 'Antic Slab', serif;margin:auto;
 }
+
+
+
 footer {
-    color:aliceblue;background-color:orange; font-size: 13px; 
-    font-family: 'Antic Slab', serif; text-align: center;
+    color:aliceblue;background-color:rgb(43, 36, 5); font-size: 13px; font-weight: bold;
+    font-family: 'Montserrat', Antic Slab, serif; text-align: center; 
 }
