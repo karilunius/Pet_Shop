@@ -1,7 +1,88 @@
-nav.submenu {
-    background-color:rgb(43, 36, 5); color:aliceblue;
-    font-size: small;
+*{
+    margin:0;
+    border:0;
+    /*border: solid 1px black;*/
 }
+body {
+    font-style: normal;
+    font-family: 'Montserrat', Georgia, 'Times New Roman', Times, serif Georgia, Times, 'Times New Roman', serif;
+}
+
+/*HEADERS*/
+
+nav.submenua {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color:rgb(70, 66, 47); color:aliceblue;
+    font-size: small;
+    height: 20px;
+}
+nav.submenua span a#submenu1 {
+    margin-left: 30px;
+    margin-right: 1200px;
+}
+
+a#submenu1 {
+    text-decoration: none;
+}
+span.submenu2 {
+    align-content:center;
+    margin-right:2px;
+}
+header.submenub {
+    display:flex;
+    background-color:rgb(247, 208, 14); color:rgb(10, 12, 14);
+    justify-content: flex-end;
+}
+#logopet1 #foto {
+    margin-top:5px;
+    margin-bottom:2px;
+    padding-right:30px;
+}
+div.submenu3 {
+    display:flex;
+    margin-top:10px;
+    margin-bottom:5px;
+    padding:10px;
+}
+/*MAIN*/
+
+.bigfoto{
+    display:flex;
+    flex-direction: row-reverse;
+    background-image: url(../img/background_1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 75vh;
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items:center;
+    margin-right: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 #logopet1 {
     background-color:rgb(235, 195, 19);
 }
@@ -43,3 +124,4 @@ footer {
     color:aliceblue;background-color:rgb(43, 36, 5); font-size: 13px; font-weight: bold;
     font-family: 'Montserrat', Antic Slab, serif; text-align: center; 
 }
+*/
