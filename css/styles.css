@@ -54,18 +54,43 @@ div.submenu3 {
     background-image: url(../img/background_1.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 75vh;
+    height: 80vh;
 }
-.boxes{
+span.boxes{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
     align-items:center;
     margin-right: 90px;
+
 }
-
-
+.boxes #box1 {
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius:15px;
+    margin: 20px;
+}
+h2 {
+    font-size: xx-large;
+}
+button {
+    background-color: rgb(253, 196, 39);
+    padding:10px;
+    border-radius: 10px;
+    margin:12px;
+}
+#aa {
+    text-decoration: none;
+}
+div#pata {
+    background-image: url(../img/pawprint_2.png);
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-size: 20% 20%;
+    height:70vh;
+    width: 70vh;
+}
 
 
 
