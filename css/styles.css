@@ -15,16 +15,15 @@ nav.submenua {
     background-color:rgb(70, 66, 47); color:aliceblue;
     font-size: small;
 }
-nav.submenua span a#submenu1 {
-    margin-right: 1100px;
-}
+
 a#submenu1 {
+    display:inline-flex;
     color:aqua;
     text-decoration: none;
 }
 span.submenu2 {
-    align-content:center;
-    padding-right: 50px;
+    display:inline-flex;
+    padding-left: 30px;
 }
 header.submenub {
     display:flex;
